@@ -9,8 +9,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ─── Bot Tokens ──────────────────────────────────────────────────────────────
-ONBOARDING_BOT_TOKEN = os.getenv("ONBOARDING_BOT_TOKEN", "")
-DEMO_BOT_TOKEN       = os.getenv("DEMO_BOT_TOKEN",       "")
+# LEAH_Onboarding_Assist @Leah_onboarding_bot
+ONBOARDING_BOT_TOKEN = os.getenv("ONBOARDING_BOT_TOKEN", "8276431208:AAEDBp3dGbDheRp96s6IXILvasWxdEnYj5w")
+# LEAH_Luxury_Concierge_DEMO @leah_luxury_host_demo_bot
+DEMO_BOT_TOKEN       = os.getenv("DEMO_BOT_TOKEN",       "8633547753:AAEElVx4U7O5b3yu7AlK9BrYm7RbQoxDKt8")
 
 # ─── Owner / Admin ────────────────────────────────────────────────────────────
 OWNER_TELEGRAM_ID    = int(os.getenv("OWNER_TELEGRAM_ID", "0"))
@@ -27,7 +29,9 @@ WEATHER_CACHE_TTL    = 600  # 10 minutes
 
 # ─── Business ─────────────────────────────────────────────────────────────────
 BRAND_NAME           = "SolutionA4U"
-PLATFORM_NAME        = "LEAH"
+PLATFORM_NAME        = "LEAH AI Concierge"
+DEMO_BOT_NAME        = "LEAH_Luxury_Concierge_DEMO"
+ONBOARDING_BOT_NAME  = "LEAH_Onboarding_Assist"
 SETUP_FEE            = 100.00
 MONTHLY_FEE          = 45.99
 TRIAL_DAYS           = 7
